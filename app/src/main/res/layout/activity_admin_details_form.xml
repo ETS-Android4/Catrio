@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Admin_details_form"
+    android:orientation="vertical"
+    android:background="@drawable/res_back11"
+    >
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:text="ADMIN DETAILS"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical"
+            >
+
+            <ImageView
+                android:id="@+id/admin_sinup_image"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/profile_pic_1" />
+
+            <EditText
+                android:id="@+id/admin_sinup_name"
+                android:layout_width="360dp"
+                android:layout_height="40dp"
+                android:layout_margin="15dp"
+                android:background="@drawable/input_shape"
+                android:ems="10"
+                android:hint="NAME"
+                android:inputType="textPersonName"
+                android:paddingLeft="12dp"
+                android:textColor="#FFFFFF"
+                android:textColorHint="#FFFFFF" />
+
+            <EditText
+                android:id="@+id/admin_sinup_contact"
+                android:layout_width="360dp"
+                android:layout_height="40dp"
+                android:layout_margin="15dp"
+                android:background="@drawable/input_shape"
+                android:ems="10"
+                android:hint="CONTACT NO"
+                android:inputType="phone"
+                android:paddingLeft="12dp"
+                android:textColor="#FFFFFF"
+                android:textColorHint="#FFFFFF" />
+
+
+            <EditText
+
+                android:id="@+id/admin_sinup_address"
+                android:layout_width="360dp"
+                android:layout_height="40dp"
+                android:layout_margin="15dp"
+                android:background="@drawable/input_shape"
+                android:ems="10"
+                android:hint="ADDRESS"
+                android:paddingLeft="12dp"
+                android:textColor="#FFFFFF"
+                android:textColorHint="#FFFFFF"
+                android:inputType="textMultiLine"/>
+
+            <EditText
+                android:id="@+id/admin_sinup_city"
+                android:layout_width="360dp"
+                android:layout_height="40dp"
+                android:layout_margin="15dp"
+                android:background="@drawable/input_shape"
+                android:ems="10"
+                android:hint="CITY"
+                android:inputType="textPersonName"
+                android:paddingLeft="12dp"
+                android:textColor="#FFFFFF"
+                android:textColorHint="#FFFFFF" />
+
+            <EditText
+                android:id="@+id/admin_sinup_state"
+                android:layout_width="360dp"
+                android:layout_height="40dp"
+                android:layout_margin="15dp"
+                android:background="@drawable/input_shape"
+                android:ems="10"
+                android:hint="STATE"
+                android:inputType="textPersonName"
+                android:textColor="#FFFFFF"
+
+                android:textColorHint="#FFFFFF"
+                android:paddingLeft="12dp" />
+
+            <TextView
+                android:id="@+id/admin_sinup_button"
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:layout_margin="15dp"
+                android:background="@drawable/signup_button_shape"
+                android:paddingLeft="12dp"
+                android:text="ADD DETAILS"
+                android:textColor="#0000ff"
+                android:gravity="center"/>
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

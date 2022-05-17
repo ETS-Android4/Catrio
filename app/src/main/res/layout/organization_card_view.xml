@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<androidx.cardview.widget.CardView
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="wrap_content"
+    app:cardElevation="200dp"
+    app:cardCornerRadius="50dp"
+    android:layout_margin="10dp"
+   >
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    android:background="#095285"
+
+    >
+
+  <ImageView
+        android:id="@+id/organization_card_recycle_image"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_margin="10dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/res_back9"></ImageView>
+
+
+   <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical"
+        android:gravity="center"
+
+        >
+
+        <TextView
+            android:id="@+id/organization_card_recycle_name"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="3dp"
+
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/organization_card_recycle_city"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:layout_margin="3dp"
+            android:layout_marginTop="2dp"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/organization_card_recycle_Food_list"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_margin="3dp"
+            android:textStyle="bold"
+            android:inputType="textMultiLine"
+            android:layout_marginTop="2dp"
+            android:text="TextView"
+            android:textColor="#35AF3A" />
+
+        <RatingBar
+            android:id="@+id/organization_card_recycle_rating"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            style = "?android:attr/ratingBarStyleIndicator"
+            android:layout_marginTop="2dp"
+            android:numStars="5"
+            android:stepSize=".25"
+           android:isIndicator="true"
+            android:layout_gravity="left"
+           />
+
+    </LinearLayout>
+</LinearLayout>
+</androidx.cardview.widget.CardView>

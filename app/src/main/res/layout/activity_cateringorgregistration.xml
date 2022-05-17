@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".cateringorgregistration"
+    android:orientation="vertical">
+
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:text="SIGNUP"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/organization_sinup_image"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+               android:scaleType="fitXY"
+
+                android:src="@drawable/profile_pic_1" />
+
+            <EditText
+                android:id="@+id/organization_sinup_name"
+                android:layout_width="360dp"
+                android:layout_height="40dp"
+                android:layout_margin="15dp"
+                android:background="@drawable/input_shape"
+                android:ems="10"
+                android:hint="ORG NAME"
+                android:inputType="textPersonName"
+                android:paddingLeft="12dp"
+                android:textColor="#FFFFFF"
+                android:textColorHint="#FFFFFF" />
+
+            <EditText
+                android:id="@+id/organization_sinup_contact"
+                android:layout_width="360dp"
+                android:layout_height="40dp"
+                android:layout_margin="15dp"
+                android:background="@drawable/input_shape"
+                android:ems="10"
+                android:hint=" CONTACT NO"
+                android:inputType="phone"
+                android:paddingLeft="12dp"
+                android:textColor="#FFFFFF"
+                android:textColorHint="#FFFFFF" />
+
+            <EditText
+                android:id="@+id/organization_sinup_EMAIL"
+                android:layout_width="360dp"
+                android:layout_height="40dp"
+                android:layout_margin="15dp"
+                android:background="@drawable/input_shape"
+                android:ems="10"
+                android:hint=" EMAIL ID"
+                android:inputType="textEmailAddress"
+                android:paddingLeft="12dp"
+                android:textColor="#FFFFFF"
+                android:textColorHint="#FFFFFF" />
+
+
+            <EditText
+                android:id="@+id/organization_sinup_password"
+                android:layout_width="360dp"
+                android:layout_height="40dp"
+                android:layout_margin="15dp"
+                android:background="@drawable/input_shape"
+                android:ems="10"
+                android:hint="PASSWORD"
+                android:inputType="textPassword"
+                android:paddingLeft="12dp"
+                android:textColor="#FFFFFF"
+                android:textColorHint="#FFFFFF" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="15dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="15dp"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/organization_sinup_confirmpassword"
+                    android:layout_width="360dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="2dp"
+                    android:background="@drawable/input_shape"
+                    android:ems="10"
+                    android:hint="CONFIRM PASSWORD"
+                    android:inputType="textPassword"
+                    android:paddingLeft="12dp"
+                    android:textColor="#FFFFFF"
+                    android:textColorHint="#FFFFFF" />
+
+                <TextView
+                    android:id="@+id/organization_sinup_confir_indicator"
+                    android:layout_width="20dp"
+
+                    android:layout_height="20dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="3dp"
+                    android:background="@drawable/passwordconfirmer" />
+            </LinearLayout>
+
+            <EditText
+
+                android:id="@+id/organization_sinup_address"
+                android:layout_width="360dp"
+                android:layout_height="40dp"
+                android:layout_margin="15dp"
+                android:background="@drawable/input_shape"
+                android:ems="10"
+                android:hint="ADDRESS"
+                android:inputType="textMultiLine"
+                android:paddingLeft="12dp"
+                android:textColor="#FFFFFF"
+                android:textColorHint="#FFFFFF" />
+
+            <EditText
+                android:id="@+id/organization_sinup_city"
+                android:layout_width="360dp"
+                android:layout_height="40dp"
+                android:layout_margin="15dp"
+                android:background="@drawable/input_shape"
+                android:ems="10"
+                android:hint="CITY"
+                android:inputType="textPersonName"
+                android:paddingLeft="12dp"
+                android:textColor="#FFFFFF"
+                android:textColorHint="#FFFFFF" />
+
+            <EditText
+                android:id="@+id/organization_sinup_state"
+                android:layout_width="360dp"
+                android:layout_height="40dp"
+                android:layout_margin="15dp"
+                android:background="@drawable/input_shape"
+                android:ems="10"
+                android:hint="STATE"
+                android:inputType="textPersonName"
+                android:paddingLeft="12dp"
+
+                android:textColor="#FFFFFF"
+                android:textColorHint="#FFFFFF" />
+
+            <TextView
+                android:id="@+id/organization_sinup_button"
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:layout_margin="15dp"
+                android:background="@drawable/signup_button_shape"
+                android:gravity="center"
+                android:paddingLeft="12dp"
+                android:text="SIGN UP"
+                android:textColor="#0000ff" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

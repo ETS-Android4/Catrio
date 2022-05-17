@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".user_dash_fragment.user_orgdetails"
+    android:background="@drawable/res_back2">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="10dp"
+        android:text="ORDERDETAILS"
+        android:textColor="#FFFFFF" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:orientation="vertical">
+
+
+            <ImageView
+                android:id="@+id/user_orderdeails_food_image"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:srcCompat="@tools:sample/avatars" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView41"
+                    android:layout_width="100dp"
+                    android:layout_height="50dp"
+                    android:layout_marginRight="50dp"
+                    android:layout_weight="0"
+                    android:gravity="center"
+                    android:text="FOODLIST"
+                    android:textColor="#FFFFFF"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/user_orderdeails_foodlist"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="20dp"
+                    android:layout_weight="0"
+                    android:gravity="start|left"
+                    android:text="TextView"
+                    android:textColor="#FFFFFF"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+            .
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+
+
+                    android:layout_width="100dp"
+                    android:layout_height="50dp"
+                    android:layout_marginRight="50dp"
+                    android:layout_weight="0"
+                    android:gravity="center"
+                    android:text="ADRESS"
+                    android:textColor="#FFFFFF" />
+
+                <TextView
+                    android:id="@+id/user_orderdeails_address"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="20dp"
+                    android:layout_weight="0"
+                    android:text="TextView"
+                    android:textColor="#FFFFFF"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+
+                    android:layout_width="100dp"
+                    android:layout_height="50dp"
+                    android:layout_marginRight="50dp"
+                    android:layout_weight="0"
+                    android:gravity="center"
+                    android:text="FOOD TYPE"
+                    android:textColor="#FFFFFF" />
+
+                <TextView
+                    android:id="@+id/user_orderdeails_foodtype"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="20dp"
+                    android:layout_weight="0"
+                    android:text="TextView"
+                    android:textColor="#FFFFFF"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+
+                    android:layout_width="100dp"
+                    android:layout_height="50dp"
+                    android:layout_marginRight="50dp"
+                    android:layout_weight="0"
+                    android:gravity="center"
+                    android:text="COUNT"
+                    android:textColor="#FFFFFF" />
+
+                <TextView
+                    android:id="@+id/user_orderdeails_foodcount"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="20dp"
+                    android:layout_weight="0"
+                    android:text="TextView"
+                    android:textColor="#FFFFFF"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+
+                    android:layout_width="100dp"
+                    android:layout_height="50dp"
+                    android:layout_marginRight="50dp"
+                    android:layout_weight="0"
+                    android:gravity="center"
+                    android:text="TOTAL AMOUNT"
+                    android:textColor="#FFFFFF" />
+
+                <TextView
+                    android:id="@+id/user_orderdeails_foodamount"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="20dp"
+                    android:layout_weight="0"
+                    android:text="TextView"
+                    android:textColor="#FFFFFF"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+
+                    android:layout_width="100dp"
+                    android:layout_height="50dp"
+                    android:layout_marginRight="50dp"
+                    android:layout_weight="0"
+                    android:gravity="center"
+                    android:text="STATUS"
+                    android:textColor="#FFFFFF"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/user_orderdeails_foodstatus"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="20dp"
+                    android:layout_weight="0"
+                    android:gravity="start|left"
+                    android:text="TextView"
+                    android:textColor="#FFFFFF"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="100dp"
+                    android:layout_height="50dp"
+                    android:layout_marginRight="50dp"
+                    android:layout_weight="0"
+                    android:gravity="center"
+                    android:text="ORG NAME"
+                    android:textColor="#FFFFFF" />
+
+                <TextView
+                    android:id="@+id/user_orderdeails_orgname"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="20dp"
+                    android:layout_weight="0"
+                    android:text="TextView"
+                    android:textColor="#FFFFFF"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+
+                    android:layout_width="100dp"
+                    android:layout_height="50dp"
+                    android:layout_marginRight="50dp"
+                    android:layout_weight="0"
+                    android:gravity="center"
+                    android:text="ORG CONTACT NO"
+                    android:textColor="#FFFFFF" />
+
+                <TextView
+                    android:id="@+id/user_orderdeails_contact"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="20dp"
+                    android:layout_weight="0"
+                    android:text="TextView"
+                    android:textColor="#FFFFFF"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+
+                    android:layout_width="100dp"
+                    android:layout_height="50dp"
+                    android:layout_marginRight="50dp"
+                    android:layout_weight="0"
+                    android:gravity="center"
+                    android:text="ORDERED DATE"
+                    android:textColor="#FFFFFF" />
+
+                <TextView
+                    android:id="@+id/user_orderdeails_food_orderdate"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="20dp"
+                    android:layout_weight="0"
+                    android:text="TextView"
+                    android:textColor="#FFFFFF"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+
+                    android:layout_width="100dp"
+                    android:layout_height="50dp"
+                    android:layout_marginRight="50dp"
+                    android:layout_weight="0"
+                    android:gravity="center"
+                    android:text="DELIVERY DATE"
+                    android:textColor="#FFFFFF" />
+
+                <TextView
+                    android:id="@+id/user_orderdeails_food_deliverydate"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="20dp"
+                    android:layout_weight="0"
+                    android:text="TextView"
+                    android:textColor="#FFFFFF"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+
+                <TextView
+                    android:id="@+id/user_orderdeails_cancelbutton"
+                    android:layout_width="100dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/passwordnotconfirmed"
+                    android:gravity="center"
+                    android:text="CANCEL ORDER"
+                    android:layout_marginBottom="100dp" />
+
+
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+</LinearLayout>

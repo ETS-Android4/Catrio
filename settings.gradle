@@ -1,0 +1,2 @@
+rootProject.name = "CATRIO"
+include ':app'

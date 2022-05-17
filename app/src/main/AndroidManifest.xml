@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.team.catrio">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.CATRIO">
+        <activity android:name=".admin.admin_org_details"></activity>
+        <activity android:name=".user_dash_fragment.user_orgdetails" />
+        <activity android:name=".org.Org_orderdetails" />
+        <activity android:name=".user_dash_fragment.order"
+            android:theme="@style/Theme.CATRIO.NoActionBar.order">
+        </activity>
+        <activity android:name=".user_dash_fragment.fooddetails" />
+        <activity android:name=".org.additem" />
+        <activity android:name=".Admin_details_form" />
+        <activity
+            android:name=".admin_dash"
+            android:theme="@style/Theme.CATRIO.NoActionBar" />
+        <activity
+            android:name=".organization_dash"
+            android:theme="@style/Theme.CATRIO.NoActionBar" />
+        <activity
+            android:name=".user_dash"
+            android:theme="@style/Theme.CATRIO.NoActionBar" />
+        <activity
+            android:name=".Login"
+            android:theme="@style/Theme.CATRIO.NoActionBar.bacgroundlogin">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".cateringorgregistration"
+            android:theme="@style/Theme.CATRIO.NoActionBar.userreg" />
+        <activity
+            android:name=".booker_registration"
+            android:theme="@style/Theme.CATRIO.NoActionBar.userreg" />
+        <activity android:name=".MainActivity" />
+    </application>
+
+</manifest>

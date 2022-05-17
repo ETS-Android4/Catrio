@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">CATRIO</string>
+    <string name="open_drwer">DRAWER IS OPEND</string>
+    <string name="close_drawer">DRAWER IS CLOSED</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string-array name="search_type">
+        <item>ALL</item>
+        <item>CITY</item>
+        <item>STATE</item>
+
+
+
+    </string-array>
+    <string-array name="food_type">
+        <item>BREAKFAST</item>
+        <item>SNACKS</item>
+        <item>LUNCH</item>
+        <item>DINNER</item>
+
+
+    </string-array>
+    <string-array name="verify">
+        <item>ALL</item>
+        <item>NOT VERIFIED</item>
+        <item>VERIFIED</item>
+
+
+
+    </string-array>
+
+</resources>

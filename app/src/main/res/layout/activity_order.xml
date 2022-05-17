@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:layout_anchorGravity="center"
+    tools:context=".user_dash_fragment.order"
+    >
+
+
+    <ScrollView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="120dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_margin="20dp"
+                android:gravity="center_horizontal|center_vertical"
+                android:text="ORDER"
+                android:textColorHint="#FFFFFF"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/order_date"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:background="@drawable/input_shape"
+                android:focusableInTouchMode="false"
+                android:gravity="center"
+                android:hint="CHOSE DATE"
+                android:textColorHint="#FFFFFF" />
+
+            <EditText
+                android:id="@+id/order_time"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:background="@drawable/input_shape"
+                android:focusableInTouchMode="false"
+                android:gravity="center"
+                android:hint="CHOSE TIME"
+                android:textColorHint="#FFFFFF" />
+
+            <EditText
+                android:id="@+id/order_addrs"
+                android:layout_width="250dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:background="@drawable/input_shape"
+                android:gravity="center"
+                android:hint="ADDRESS"
+                android:textColorHint="#FFFFFF">
+
+            </EditText>
+
+            <EditText
+                android:id="@+id/no_of_plate"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+
+                android:background="@drawable/input_shape"
+                android:gravity="center"
+                android:hint="NO OF PLATES MIN:10"
+                android:inputType="textPersonName"
+                android:textColorHint="#FFFFFF" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_horizontal">
+                <TextView
+                    android:id="@+id/txtamountdisplay"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="10dp"
+                    android:textColorHint="#FFFFFF"
+                    android:textSize="20dp"
+                    android:visibility="gone"
+                    android:textColor="#ffffff"
+
+                    />
+
+            <TextView
+                android:id="@+id/count_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="1dp"
+                android:textColorHint="#FFFFFF"
+                android:textSize="20dp"
+                android:visibility="gone"
+                android:textColor="#ffffff"
+                 />
+            </LinearLayout>
+            <TextView
+                android:id="@+id/order_order"
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="1dp"
+                android:background="@drawable/signup_button_shape"
+                android:gravity="center"
+                android:paddingLeft="12dp"
+                android:text="ORDER"
+                android:textColor="#05178A"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+
+
+        >\
+    </ScrollView>
+
+</LinearLayout>

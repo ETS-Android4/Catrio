@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <group android:checkableBehavior="single" >
+
+        <item
+            android:id="@+id/organization_dashboard_home_menu"
+            android:icon="@drawable/home"
+            android:title="HOME"
+            app:showAsAction="always" />
+        <item
+            android:id="@+id/organization_dashboard_profile_menu"
+            android:icon="@drawable/tory_24"
+            android:title="PROFILE"
+            app:showAsAction="always" />
+        <item
+            android:id="@+id/organization_dash_pending_transaction"
+            android:icon="@drawable/ic_baseline_border_color_24"
+            android:title="PENDING ORDER"
+
+            app:showAsAction="always" />
+        <item
+            android:id="@+id/organization_dash_completed_transaction"
+            android:icon="@drawable/ic_baseline_history_24"
+            android:title="COMPLETED ORDER"
+            app:showAsAction="always" />
+
+
+    </group>
+    <item
+        android:id="@+id/organization__dash_signout_menu"
+        android:icon="@drawable/ic_baseline_power_settings_new_24"
+        android:title="SIGN OUT" />
+    <item
+        android:id="@+id/organization__dash_delete_account"
+        android:icon="@drawable/ic_baseline_power_settings_new_24"
+        android:title="DELETE ACCOUNT" />
+    <item android:title="COMMUNICATION">
+
+
+        <menu>
+            <group>
+
+                <item
+                    android:id="@+id/organization_dash_share_menu"
+                    android:icon="@drawable/ic_baseline_share_24"
+                    android:title="SHARE"
+                    app:showAsAction="always" />
+                <item
+                    android:id="@+id/organization_dash_about_menu"
+                    android:icon="@drawable/ic_baseline_info_24"
+                    android:title="ABOUT" />
+            </group>
+        </menu>
+    </item>
+
+
+
+
+
+
+</menu>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="223dp"
+    android:orientation="vertical"
+    android:background="@drawable/back3">
+    <ImageView
+        android:id="@+id/user_dash_header_pic"
+        android:layout_width="120dp"
+        android:layout_height="100dp"
+        android:scaleType="fitXY"
+        android:layout_gravity="bottom"
+        android:layout_margin="5dp"
+        android:src="@drawable/profile_pic_1" />
+    <TextView
+        android:id="@+id/admin_dash_header_desc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="USER"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textColor="@color/white"/>
+
+    <TextView
+        android:id="@+id/user_dash_header_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="NAME"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textColor="@color/white"/>
+    <TextView
+        android:id="@+id/user_dashboard_header_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_margin="5dp"
+        android:text="EMAIL"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textColor="@color/white" />
+</LinearLayout>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".admin_dash"
+    android:orientation="vertical"
+    android:fitsSystemWindows="false"
+    android:id="@+id/admin_dashboard_drawer"
+    tools:openDrawer="start"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/admin_dash_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:background="#0BE1F4"
+            />
+
+        <FrameLayout
+            android:id="@+id/admin_dash_frame"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+    <com.google.android.material.navigation.NavigationView
+        android:id="@+id/admin_dash_nav"
+        android:layout_width="300dp"
+        android:layout_height="match_parent"
+        android:background="@drawable/back2"
+        android:layout_gravity="start"
+        app:headerLayout="@layout/admin_dash_nav_header"
+        app:menu="@menu/admin_dash_nav_menu"
+        app:itemTextColor="#28E6D0"
+        app:itemIconTint="#23A129">
+
+    </com.google.android.material.navigation.NavigationView>
+
+
+</androidx.drawerlayout.widget.DrawerLayout>
+

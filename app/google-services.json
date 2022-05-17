@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "917342304478",
+    "project_id": "catrio-15bb5",
+    "storage_bucket": "catrio-15bb5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:917342304478:android:e9f8ffa3c1e5adabcbaa4f",
+        "android_client_info": {
+          "package_name": "com.team.catrio"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "917342304478-biqqgc90f81bm11qvikarv3safklvg44.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC_8AKNGM-QEg6t1I_Ubm_noBsVZZ4nZvI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "917342304478-biqqgc90f81bm11qvikarv3safklvg44.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
